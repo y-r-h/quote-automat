@@ -8,4 +8,14 @@ the optimal way to achieve this.
 
 1. Create a new .sh file
 ```
-curl https://www.brainyquote.com/quote_of_the_day | egrep "\"&quot;.*\""
+curl https://www.brainyquote.com/quote_of_the_day | egrep "\"&quot;.*\"" | sed "s/<meta.*content=\"&quot;//g" | sed "s/&quot;//g" | sed "s/\">//g" >> quote.txt
+echo " " >> quote.txt
+```
+
+The reader is tasked with condensing the pipe job. <br>
+
+For more information on the multifaceted `sed` command, see [this](https://www.linuxscrew.com/bash-sed) page.
+
+2. Create target .txt file
+
+Peanuts.
