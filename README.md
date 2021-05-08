@@ -19,7 +19,7 @@ Peanuts.
 
 3. Add task to `crontab` <br>
 First type `crontab -e` <br>
-Then add the the line `20 6 * * * bash ~/quote-automot/quote.sh
+Then add the the line `20 6 * * * bash ~/quote-automot/quote.sh`
 
 
 
