@@ -14,12 +14,12 @@ echo " " >> quote.txt
 The reader is tasked with condensing the pipe job. <br>
 For more information on the multifaceted `sed` command, see [this](https://www.linuxscrew.com/bash-sed) page.
 
-2. Create target .txt file
+2. Create target .txt file <br>
 Peanuts.
 
-3. Add task to `crontab`
-- First type `crontab -e` <br>
-- Then add the the line `20 6 * * * bash ~/quote-automot/quote.sh
+3. Add task to `crontab` <br>
+First type `crontab -e` <br>
+Then add the the line `20 6 * * * bash ~/quote-automot/quote.sh
 
 
 
