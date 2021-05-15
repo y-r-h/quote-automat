@@ -1,4 +1,5 @@
-Quote of the day taken at 12:00 everyday from Brainyquote.com.
+Quote of the day taken at 09:30 everyday* from Brainyquote.com.
+*date and time of ssh server location
 
 Sat May  8 17:48:28 UTC 2021
 It is amazing what you can accomplish if you do not care who gets the credit. - Harry S Truman
